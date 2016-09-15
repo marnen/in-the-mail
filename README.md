@@ -16,4 +16,4 @@ Initially, I'm going to be doing this to support my own needs, which is to suppo
 
 ### Implementation ideas
 
-At least in the early stages, I would like to try implementing the Gmail side of this as a [contextual gadget](https://developers.google.com/gmail/contextual_gadgets). I'm not sure what needs to be done on the TaskWarrior side, except for adding an annotation or UDA that contains the ID of the e-mail message.
+I tried to implement this as a Gmail [contextual gadget](https://developers.google.com/gmail/contextual_gadgets), but it turned out that the interface for writing gadgets sort of sucks. I think my next attempt will be to implement it as a browser extension/userscript. I'm not sure what needs to be done on the TaskWarrior side, except for adding an annotation or UDA that contains the ID of the e-mail message.
